@@ -1,0 +1,9 @@
+export { default as Home } from '~/pages/Home';
+export { default as Services } from '~/pages/Services';
+export { default as Cart } from '~/pages/Cart';
+export { default as Messages } from '~/pages/Messages';
+export { default as SignIn } from '~/pages/SignIn';
+export { default as SignUp } from '~/pages/SignUp';
+export { default as Settings } from '~/pages/Settings';
+export { default as ForgotPassword } from '~/pages/ForgotPassword';
+export { default as ResetPassword } from '~/pages/ResetPassword';
