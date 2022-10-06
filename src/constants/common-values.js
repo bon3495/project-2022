@@ -5,6 +5,13 @@ import {
   servicesIcon,
 } from '~/styles/icons/icons';
 
+export const API_URL = process.env.PUBLIC_API_PROJECT_URL;
+// const CookieKeyPrefix = '@DS';
+export const CookieKey = {
+  AccessToken: 'accessToken',
+  UserInfo: 'userInfo',
+};
+
 export const CONTEXT_TYPE = {
   DARK_MODE: 'Dark',
   LIGHT_MODE: 'Light',
@@ -115,3 +122,5 @@ export const FORM_LABELS = {
   firstName: 'First Name',
   lastName: 'Last Name',
 };
+
+export const API_PROJECT_URL = process.env.PUBLIC_API_PROJECT_URL;

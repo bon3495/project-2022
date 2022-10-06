@@ -21,11 +21,6 @@ const AuthLayout = ({ children }) => {
 
   return (
     <main className="w-screen h-screen flex items-center justify-center relative bg-white-2">
-      {/* <div
-        style={{ backgroundImage: `url(${bgLgImg})` }}
-        className="fixed top-0 left-0 bottom-0 right-0 bg-cover bg-no-repeat bg-center"
-      />*/}
-      {/* <div className="fixed top-0 left-0 bottom-0 right-0 bg-black/5" /> */}
       <div className="fixed top-0 left-0 bottom-0 right-0">
         <span className="absolute top-[10%] left-[10%] animate-bannerAnim2">
           {authBanner1}
